@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'vazir';
+    src: url(../../../public/fonts/Vazir.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'vazir';
+    overflow: hidden;
+}
+body{
+    background: #000;
+}
+.Form-container{
+    width: 320px;
+    height: 520px;
+    background: #f1f1f1;
+    overflow: scroll;
+}
+.Form-title{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    height: 50px;
+    padding: 0 10px;
+}
+.Form-title h3{
+    color: #818389;
+}
