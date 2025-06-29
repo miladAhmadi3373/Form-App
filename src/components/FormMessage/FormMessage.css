@@ -73,3 +73,9 @@
     color: #888;
     margin-top: 5px;
 }
+.delete-message{
+    color: red;
+}
+.newFile-message{
+    color: #108fcf;
+}
